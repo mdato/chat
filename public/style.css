@@ -1,0 +1,40 @@
+body {
+  background: #f8f8f8;
+  max-height: 99vh;
+}
+
+.chat-container {
+  top: 0;
+  transform: translateY(-130px);
+  max-height: 55vh;
+  overflow-y: scroll;
+  padding: 0px 1.5rem;
+}
+
+.chat-message {
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.chat-message.me {
+  background: lightblue;
+}
+
+.field {
+  top: 0;
+  transform: translateY(-100px);
+}
+
+.hero-foot {
+  position: fixed;
+  bottom: -40px;
+  left: 100px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .field{
+        display: block !important;
+    }
+}

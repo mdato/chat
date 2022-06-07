@@ -1,0 +1,4 @@
+iniciamos con:
+npm run start:dev
+y abrimos navegador:
+localhost:3000
